@@ -17,21 +17,32 @@ Of course, these parameters are optional and I have set some default ones.
     g.greet().setLang("en").greet(true);
     
 Output:
+```html
     "Hello John!"
     Greetings,John Doe!"
+```
 
 #An Example with JQuery
-```html
-<h2>Example of code</h2>
 
-<pre>
-    <div class="container">
-        <div class="block two first">
-            <h2>Your title</h2>
-            <div class="wrap">
-            //Your content
-            </div>
-        </div>
-    </div>
-</pre>
+Given Some Simple "login" layout say
+```html
+<div id = "logindiv">
+    <select id = "lang">
+        <option value = "en">English</option>
+         <option value = "es">Spanish</option>
+    </select>
+<input type = "button" value = "login" id = "login">
+</div>
+<h1 id  = "greeting"></h1>
+```
+Utilizing our HTML with Hello.js and JQuery
+
+```html
+$('#login').click(function(){
+    
+    var loginGrtr = H$('John','Doe');
+    $('#logindiv').hide();
+    loginGrtr.setLang($('#lang').val()).HTMLGreeting('#greeting',true).log();
+    
+});
 ```
