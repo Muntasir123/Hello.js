@@ -22,14 +22,14 @@ Output:
 
 #An Example with JQuery
 Given some HTML layout say
-<div id = "logindiv">
-    <select id = "lang">
-        <option value = "en">English</option>
-        <option value = "es">Spanish</option>
-    </select>
-<input type = "button" value = "login" id = "login">
-</div>
-<h1 id  = "greeting"></h1>
+    <div id = "logindiv">
+        <select id = "lang">
+            <option value = "en">English</option>
+            <option value = "es">Spanish</option>
+        </select>
+    <input type = "button" value = "login" id = "login">
+    </div>
+    <h1 id  = "greeting"></h1>
 
 
 We can use some Hello.js magic to show our greetings from this simple "login" template
