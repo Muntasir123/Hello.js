@@ -1,7 +1,7 @@
 # Hello.js
 
 A Javascript Library I made that supports greetings in Spanish and English
-
+Hello.js utilizes name calling by distinguishing between formal and "informal" calls in English and Spanish
 
 #Usage
 You can use my library concurrently with JQuery, as well as chaining JQuery methods and methods that I have provided.
@@ -15,8 +15,13 @@ Of course, these parameters are optional and I have set some default ones.
 
     var g = H$('John','Doe');
     g.greet().setLang("en").greet(true);
+    
+Output:
+    Hello John!
+    Greetings,John Doe!
 
 #An Example with JQuery
+
 
 Given some HTML layout say
 <div id = "logindiv">
