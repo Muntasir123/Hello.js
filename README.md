@@ -10,7 +10,7 @@ You can use my library concurrently with JQuery, as well as chaining JQuery meth
 You can access my library by doing
 
 ```html
-$H(arg1,arg2,arg3)
+H$(arg1,arg2,arg3)
 ```
 Of course, these parameters are optional and I have set some default ones.
 
