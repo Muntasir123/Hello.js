@@ -17,12 +17,10 @@ Of course, these parameters are optional and I have set some default ones.
     g.greet().setLang("en").greet(true);
     
 Output:
-    Hello John!
-    Greetings,John Doe!
+    "Hello John!"
+    Greetings,John Doe!"
 
 #An Example with JQuery
-
-
 Given some HTML layout say
 <div id = "logindiv">
     <select id = "lang">
