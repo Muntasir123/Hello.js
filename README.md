@@ -21,23 +21,17 @@ Output:
     Greetings,John Doe!"
 
 #An Example with JQuery
-Given some HTML layout say
-    <div id = "logindiv">
-        <select id = "lang">
-            <option value = "en">English</option>
-            <option value = "es">Spanish</option>
-        </select>
-    <input type = "button" value = "login" id = "login">
+```html
+<h2>Example of code</h2>
+
+<pre>
+    <div class="container">
+        <div class="block two first">
+            <h2>Your title</h2>
+            <div class="wrap">
+            //Your content
+            </div>
+        </div>
     </div>
-    <h1 id  = "greeting"></h1>
-
-
-We can use some Hello.js magic to show our greetings from this simple "login" template
-
-    $('#login').click(function(){
-    
-        var loginGrtr = H$('John','Doe');
-        $('#logindiv').hide();
-        loginGrtr.setLang($$('#lang').val()).HTMLGreeting('#greeting',true).log();
-    
-    });
+</pre>
+```
