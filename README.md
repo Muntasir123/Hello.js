@@ -13,8 +13,8 @@ Of course, these parameters are optional and I have set some default ones.
 
 #Simple Example
 
-var g = H$('John','Doe');
-g.greet().setLang("en").greet(true);
+    var g = H$('John','Doe');
+    g.greet().setLang("en").greet(true);
 
 #An Example with JQuery
 
@@ -31,10 +31,10 @@ Given some HTML layout say
 
 We can use some Hello.js magic to show our greetings from this simple "login" template
 
-$('#login').click(function(){
+    $('#login').click(function(){
     
-    var loginGrtr = H$('John','Doe');
-    $('#logindiv').hide();
-    loginGrtr.setLang($$('#lang').val()).HTMLGreeting('#greeting',true).log();
+        var loginGrtr = H$('John','Doe');
+        $('#logindiv').hide();
+        loginGrtr.setLang($$('#lang').val()).HTMLGreeting('#greeting',true).log();
     
-});
+    });
